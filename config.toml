@@ -1,23 +1,27 @@
-baseURL = "https://example.com"
+baseURL = "https://jonezy.art/"
 languageCode = "en-us"
-title = "Showcase Theme"
+title = "Jonezy Art"
 Paginate = 1000
 googleAnalytics = ""
 theme = "showcase"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
 [params]
-  author = "showcase"
-  description = "Minimal, one page, theme for showcasing your work"
+  author = "jonezy"
+  description = "Featuring "
   message = ""
   hideAutoMenu = false
 
 [[menu.main]]
-  name = "External"
-  url = "https://example.com"
+  name = "Instagram"
+  url = "https://instagram.com/jonezyart"
+
+[[menu.main]]
+  name = "Twitter"
+  url = "https://twitter.com/jonezyart"
 
 [social]
-  facebook = "https://facebook.com"
-  twitter = "https://twitter.com"
-  instagram = "https://instagram.com"
-  linkedin = "https://linkedin.com"
+  facebook = "https://facebook.com/jonezyart"
+  twitter = "https://twitter.com/jonezyart"
+  instagram = "https://instagram.com/jonezyart"
+  linkedin = ""
