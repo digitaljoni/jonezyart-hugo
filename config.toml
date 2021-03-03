@@ -1,10 +1,10 @@
 # Page settings
 
-baseurl = "https://example.org/"
+baseurl = "https://jonezy.art/"
 languageCode = "en-us"
-title = "Hugo Theme Doors"
-copyright = "© Hugo Theme Doors"
-googleAnalytics = "UA-xxxxxxxx-x"
+title = "Jonezy Art"
+copyright = "© Jonezy Art"
+googleAnalytics = "G-EQTC73CJJT"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 theme = "hugo-theme-doors"
 
@@ -55,11 +55,19 @@ image = "images/work4.jpg"
 w = "780"
 h = "518"
 
+[[params.subprojects.list]]
+title = "The work 4"
+url = "#"
+description = "Sed do eiusmod tempor incididunt"
+image = "images/work4.jpg"
+w = "780"
+h = "518"
+
 # Contact section
 [params.contact]
 description = "I would like to hear from you. Please contact me via email or social media."
-twitter = "#"
-facebook = ""
+twitter = "https://twitter.com/jonezyart"
+facebook = "https://www.facebook.com/jonezyart"
 linkedin = "#"
 github = ""
 email = "#"
