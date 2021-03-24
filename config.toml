@@ -9,16 +9,22 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 [params]
   author = "jonezy"
   description = "Featuring "
-  message = ""
+  message = "Welcome to the weird and wonderful world of Jonezyart"
   hideAutoMenu = false
+
+[[menu.main]]
+  name = "Twitter"
+  url = "https://twitter.com/jonezyart"
 
 [[menu.main]]
   name = "Instagram"
   url = "https://instagram.com/jonezyart"
 
 [[menu.main]]
-  name = "Twitter"
-  url = "https://twitter.com/jonezyart"
+  name = "Cent"
+  url = "https://beta.cent.co/jonezyart"
+
+
 
 [social]
   facebook = "https://facebook.com/jonezyart"
