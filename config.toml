@@ -21,8 +21,12 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
   url = "https://instagram.com/jonezyart"
 
 [[menu.main]]
-  name = "Cent"
+  name = "Blog"
   url = "https://beta.cent.co/jonezyart"
+
+[[menu.main]]
+  name = "Showtime"
+  url = "https://www.tryshowtime.com/jonezyart"  
 
 
 
