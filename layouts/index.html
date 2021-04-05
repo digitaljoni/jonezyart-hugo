@@ -2,6 +2,32 @@
 
 <section class="text-gray-700 body-font">
     <div class="container px-5 py-8 mx-auto">
+
+
+        <div id="wrapper">
+            <ul>
+                <li>
+                    <a href="https://opensea.io/accounts/jonezyart">
+                        Opensea</a>
+                </li>
+
+                <li>
+                    <a href="https://rarible.com/jonezyart">
+                        Rarible</a>
+                </li>
+                {{ range .Site.Menus.main }}
+
+                <li>
+                    <a href="{{ .URL }}">
+                        {{ .Name }}</a>
+                </li>
+
+                {{ end }}
+
+            </ul>
+
+        </div>
+
         {{- partial "custom-message.html" . -}}
 
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">

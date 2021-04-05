@@ -9,24 +9,33 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 [params]
   author = "jonezy"
   description = "Featuring "
-  message = "Welcome to the weird and wonderful world of Jonezyart"
+  message = "Welcome to the weird and wonderful world of Jonezy Art"
   hideAutoMenu = false
+
+[[menu.main]]
+  name = "Blog"
+  url = "https://jonezyart.medium.com"
+  weight = 1
 
 [[menu.main]]
   name = "Twitter"
   url = "https://twitter.com/jonezyart"
+  weight = 2
 
 [[menu.main]]
   name = "Instagram"
   url = "https://instagram.com/jonezyart"
+  weight = 3
 
 [[menu.main]]
-  name = "Blog"
-  url = "https://beta.cent.co/jonezyart"
+  name = "3D Gallery"
+  url = "https://oncyber.io/exhibits/c3bec7fWbT467bEm1aJg"
+  weight = 4
 
 [[menu.main]]
   name = "Showtime"
-  url = "https://www.tryshowtime.com/jonezyart"  
+  url = "https://www.tryshowtime.com/jonezyart"
+  weight = 5
 
 
 

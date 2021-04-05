@@ -3,7 +3,7 @@
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="{{ .Site.BaseURL }}">
             {{- partial "logo.html" . -}}
         </a>
-        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <nav id="main-nav" class="md:ml-auto flex flex-wrap items-center text-base justify-center">
             {{ if and (eq .Site.Params.hideAutoMenu false) (eq $.IsNode true ) }}
             <!-- <a
         class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 show-all"
