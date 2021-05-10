@@ -5,3 +5,6 @@ subtitle: Chibi Portraits
 link: https://opensea.io/collection/yandere
 image: ./images/project_yandere.jpg
 ---
+
+This is <b>yandere</b>,
+
