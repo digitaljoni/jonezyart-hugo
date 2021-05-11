@@ -1,5 +1,5 @@
 ---
-title: Artworks In Rarible
+title: Artworks At Rarible
 date: 2021-03-30
 subtitle: Minted NFTs
 link: https://rarible.com/jonezyart?tab=created

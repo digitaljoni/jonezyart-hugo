@@ -1,0 +1,75 @@
+{{ if .Params.launchDate }}
+
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+
+<div class=" flex items-center justify-center " x-data="launchTimer()" x-init="start()">
+    <div x-show="show" class="text-yellow-100">
+        <div class="text-3xl md:text-5xl text-center flex w-full items-center justify-center">
+            <div class="w-24 mx-1 p-2 bg-black text-white rounded-lg">
+                <div class="font-mono leading-none" x-text="days">00</div>
+                <div class="font-mono uppercase text-sm leading-none">Days</div>
+            </div>
+            <div class="w-24 mx-1 p-2 bg-black text-white rounded-lg">
+                <div class="font-mono leading-none" x-text="hours">00</div>
+                <div class="font-mono uppercase text-sm leading-none">Hours</div>
+            </div>
+            <div class="w-24 mx-1 p-2 bg-black text-white rounded-lg">
+                <div class="font-mono leading-none" x-text="minutes">00</div>
+                <div class="font-mono uppercase text-sm leading-none">Minutes</div>
+            </div>
+            <div class="w-24 mx-1 p-2 bg-black text-white rounded-lg">
+                <div class="font-mono leading-none" x-text="seconds">00</div>
+                <div class="font-mono uppercase text-sm leading-none">Seconds</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function launchTimer() {
+        return {
+            show: true,
+            seconds: '00',
+            minutes: '00',
+            hours: '00',
+            days: '00',
+            distance: 0,
+            countdown: null,
+            launchTime: new Date('{{ .Params.launchdate }}').getTime(),
+            now: new Date().getTime(),
+            start: function () {
+                this.countdown = setInterval(() => {
+                    // Calculate time
+                    this.now = new Date().getTime();
+                    this.distance = this.launchTime - this.now;
+                    // Set Times
+                    this.days = this.padNum(Math.floor(this.distance / (1000 * 60 * 60 * 24)));
+                    this.hours = this.padNum(Math.floor((this.distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+                    this.minutes = this.padNum(Math.floor((this.distance % (1000 * 60 * 60)) / (1000 * 60)));
+                    this.seconds = this.padNum(Math.floor((this.distance % (1000 * 60)) / 1000));
+                    // Stop
+                    if (this.distance < 0) {
+                        this.show = false;
+                        clearInterval(this.countdown);
+                        this.days = '00';
+                        this.hours = '00';
+                        this.minutes = '00';
+                        this.seconds = '00';
+                    } else {
+                        this.show = true;
+                    }
+                }, 100);
+            },
+            padNum: function (num) {
+                var zero = '';
+                for (var i = 0; i < 2; i++) {
+                    zero += '0';
+                }
+                return (zero + num).slice(-2);
+            }
+        }
+    }
+</script>
+
+{{ end }}
