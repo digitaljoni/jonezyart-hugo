@@ -1,7 +1,5 @@
 {{ if .Params.launchDate }}
 
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
-
 <div class=" flex items-center justify-center " x-data="launchTimer()" x-init="start()">
     <div x-show="show" class="text-yellow-100">
         <div class="text-3xl md:text-5xl text-center flex w-full items-center justify-center">

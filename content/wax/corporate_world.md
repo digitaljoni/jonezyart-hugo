@@ -8,6 +8,7 @@ image: /images/project_corpworld.jpg
 launchdate: "May 29, 2021 12:00:00 EDT"
 
 maintitle: "Corporate World Trading Cards"
+subtitle: "NFT Collectible Cards in Atomichub"
 mainbuttons:
   - label: "Buy Packs"
     link: "#"
@@ -17,10 +18,12 @@ mainbuttons:
     link: "https://t.me/jonezyartnft" 
 
 headerimage: /images/project-corpworld/header.jpg
-gallerytitle: "Preview Cards and Rarities"
-galleryitems: "6"
-gallery:
-  
+
+
+
+gallery1enabled: true
+gallery1title: "Preview Cards and Rarities"
+gallery1items:
   - src: "/images/project-corpworld/card-common.jpg"
     title: "Base"
     subtitle: "Common"
@@ -50,13 +53,14 @@ gallery:
     link: "#"
 ---
 
-Welcome to the Corporate World (Hell on Earth)! Dan Tenferno felt something amiss when he joined BeelzeBoss
-        Corp.
-        as
-        their new employee. He has been experiencing "daily work-life unbalance". From what he gathers, the CEO's unique
-        aura has corrupted the long-time employees and morphed into worst versions of themselves. Even the office
-        equipments
-        have a mind of their own! Will Dan survive this godforsaken place? Will he be corrupted, or will he escape?
+Welcome to the Corporate World (Hell on Earth)! Dan Tenferno felt something amiss when he joined **HereEternal LLC.** as their new employee. He has been experiencing "daily work-life unbalance". From what he gathers, the CEO's unique
+aura has corrupted the long-time employees and morphed them into worst versions of themselves. Even the office equipments have a mind of their own! 
+
+
+Will Dan survive this godforsaken place? Will he be corrupted, or will he escape?
+
+
+Get updates on upcoming drops and packs via Telegram or Twitter page.
 
 
 
