@@ -35,6 +35,11 @@
       <div class="bg-black w-80 shadow-lg cursor-pointer rounded ">
         <div class="p-4">
 
+
+          <a href="#" class="primary-button block py-5 mt-6 text-center uppercase " @click="showModal2 = true">
+            Buy Packs
+          </a>
+
           {{ range $mainbuttons := .Params.mainbuttons }}
           <a href="{{ $mainbuttons.link }}" class="primary-button block py-5 mt-6 text-center uppercase ">
             {{ $mainbuttons.label }}</a>
@@ -87,6 +92,9 @@
 </div>
 <!-- full width - end -->
 {{ end }}
+
+
+
 
 
 
