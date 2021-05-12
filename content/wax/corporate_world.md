@@ -6,6 +6,12 @@ link: /wax/corporate_world/
 image: /images/project_corpworld.jpg
 
 launchdate: "May 29, 2021 12:00:00 EDT"
+launchdatetitle: "Pack Sale"
+
+date2: "May 29, 2021 12:10:00 EDT"
+date2title: "Pack Opening"
+
+
 
 maintitle: "Corporate World Trading Cards"
 subtitle: "NFT Collectible Cards in Atomichub"
@@ -14,8 +20,10 @@ mainbuttons:
     link: "#"
   - label: "Open Packs"
     link: "https://neftyblocks.com/c/corpworldhel/"
-  - label: "Telegram"
-    link: "https://t.me/jonezyartnft" 
+  - label: "Telegram Group"
+    link: "https://t.me/jonezyartnft/" 
+  - label: "Follow Us On Twitter"
+    link: "https://twitter.com/corpworld_nft/" 
 
 headerimage: /images/project-corpworld/header.jpg
 
@@ -53,7 +61,7 @@ gallery1items:
     link: "#"
 ---
 
-Welcome to the Corporate World (Hell on Earth)! Dan Tenferno felt something amiss when he joined **HereEternal LLC.** as their new employee. He has been experiencing "daily work-life unbalance". From what he gathers, the CEO's unique
+Welcome to the Corporate World (Hell on Earth)! Dan Tenferno felt something amiss when he joined **Herr E-tech Labs Limited Inc.** as their new employee. He has been experiencing "daily work-life unbalance". From what he gathers, the CEO's unique
 aura has corrupted the long-time employees and morphed them into worst versions of themselves. Even the office equipments have a mind of their own! 
 
 
