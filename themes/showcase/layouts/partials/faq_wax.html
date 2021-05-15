@@ -1,0 +1,26 @@
+{{ with site.Data.faq_wax}}
+
+<h2
+    class="leading-tight text-2xl tracking-tight sm:text-3xl sm:leading-tight md:text-4xl md:leading-tight font-medium text-primary text-center mb-10">
+    Frequently Asked Questions
+</h2>
+
+<ul class="block w-11/12 my-4 mx-auto" x-data="{selected:null}">
+
+    {{ $.Scratch.Set "counter" 0 }}
+    {{ range .faqItem }}
+    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+    <li class="flex align-center flex-col">
+        <h4 @click="selected !== {{$.Scratch.Get `counter`}} ? selected = {{$.Scratch.Get `counter`}} : selected = null"
+            class="bg-black border-2 border-white font-semibold text-primary uppercase py-3 w-full hover:bg-white hover:text-black focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 p-4">
+            + {{ .title | markdownify }}</h4>
+        <p x-show="selected == {{$.Scratch.Get `counter`}}" class="border py-5 px-10 text-white m-0">
+            {{ .content | markdownify }}
+        </p>
+    </li>
+
+    {{ end }}
+
+</ul>
+
+{{ end }}

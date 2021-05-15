@@ -36,12 +36,15 @@
         <div class="p-4">
 
 
+          {{ if .Params.buybuttonnotready }}
           <a href="#" class="primary-button block py-5 mt-6 text-center uppercase " @click="showModal2 = true">
             Buy Packs
           </a>
+          {{ end }}
 
           {{ range $mainbuttons := .Params.mainbuttons }}
-          <a href="{{ $mainbuttons.link }}" class="primary-button block py-5 mt-6 text-center uppercase ">
+          <a target="_blank" href="{{ $mainbuttons.link }}"
+            class="primary-button block py-5 mt-6 text-center uppercase ">
             {{ $mainbuttons.label }}</a>
           {{end}}
 
@@ -95,8 +98,47 @@
 
 
 
+<!-- section - start -->
+<div class="container mx-auto px-4">
+
+  <div class="flex flex-wrap items-start mt-20">
+
+    {{ range $section := .Params.sections }}
+    <div class="w-full md:w-1/3 px-4 mb-10">
+
+      <div class="rounded-lg h-64 overflow-hidden relative mb-4">
+        <a href="{{ $section.link }}">
+          <img alt="{{ $section.title }}" class="object-cover object-center h-full w-full" src="{{ $section.image }}">
+        </a>
+      </div>
+      <h1
+        class="leading-tight text-lg tracking-tight  sm:leading-tight md:text-2xl md:leading-tight font-medium text-primary ">
+        {{ $section.title }}
+      </h1>
+      <h2
+        class="leading-tight text-md tracking-tight sm:text-md sm:leading-tight md:text-md md:leading-tight font-medium text-gray-600 mb-4 uppercase">
+        {{ $section.subtitle }}
+      </h2>
 
 
+      <div class="sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed text-gray-400 leading-relaxed"
+        id="tagline-paragraph">
+        {{ $section.content }}
+      </div>
+
+
+    </div>
+
+
+    {{end}}
+  </div>
+
+</div>
+<!-- section - end -->
+
+<div class="container mx-auto px-4">
+  {{- partial "faq_wax.html" . -}}
+</div>
 
 
 {{ end }}

@@ -5,21 +5,25 @@ subtitle: NFT Trading Cards
 link: /wax/corporate_world/
 image: /images/project_corpworld.jpg
 
+pagetitle: Corporate World (Hell on Earth)
+
 launchdate: "May 29, 2021 12:00:00 EDT"
-launchdatetitle: "Pack Sale"
+launchdatetitle: "Pack Sale Starts:"
+launchdatelink: "https://www.timeanddate.com/worldclock/meetingdetails.html?year=2021&month=5&day=29&hour=16&min=0&sec=0&p1=145&p2=179&p3=137&p4=136&p5=16"
+launchdatenote: "Pack opening 10 minutes after launch"
 
 date2: "May 29, 2021 12:10:00 EDT"
 date2title: "Pack Opening"
 
-
-
 maintitle: "Corporate World Trading Cards"
-subtitle: "NFT Collectible Cards in Atomichub"
+subtitle: "NFT Collectible Cards on Wax Blockchain"
+
+buybuttonnotready: false
 mainbuttons:
-  # - label: "Buy Packs"
-  #   link: "#"
+  - label: "Buy Packs"
+    link: "https://wax.atomichub.io/drops/37692+37699"
   - label: "Open Packs"
-    link: "https://neftyblocks.com/c/corpworldhel/"
+    link: "https://neftyblocks.com/c/corpworldhel/packs"
   - label: "Telegram Group"
     link: "https://t.me/jonezyartnft/" 
   - label: "Follow Us On Twitter"
@@ -59,6 +63,34 @@ gallery1items:
     title: "Burning"
     subtitle: "Mythic"
     link: "#"
+
+sections:
+  - title : "Promo Cards"
+    subtitle: "Freeeeeee NFTs"
+    image: "/images/project-corpworld/free.png"
+    content: "Get free promo cards by joining our Telegram group. Check for the pinned message for the link!"
+    link: ""
+  - title : "Infernal Objects"
+    subtitle: "Those pesky critters"
+    image: "/images/project-corpworld/io.png"
+    content: "Besides the 6 characters, there are also 6 Infernal Objects in the set. These are objects found in the office that came alive and develop personalities of their own."
+  - title : "Upgrade Your Cards"
+    subtitle: "Coming Soon"
+    image: "/images/project-corpworld/coming-soon.png"
+    content: "If you have extra 3 (same character, same rarity) cards , you can blend them to the  upgraded version. "
+  - title : "Character Expansion Packs"
+    subtitle: "Coming Soon"
+    image: "/images/project-corpworld/coming-soon.png"
+    content: "After the initial sale, we will be releasing expansion packs that will contain 3 cards: (2) Series1 cards and (1) new character card with all rarities."
+  - title : "Stakeholders NFT"
+    subtitle: "Coming Soon"
+    image: "/images/project-corpworld/coming-soon.png"
+    content: "If you successfully complete (and hold) the set by end of August 2021, you will get a special NFT for your achievements. This NFT will get you special nft airdrops in the future."
+    
+
+
+
+
 ---
 
 Welcome to the Corporate World (Hell on Earth)! Dan Tenferno felt something amiss when he joined **Herr E-tech Labs Limited Inc.** as their new employee. He has been experiencing "daily work-life unbalance". From what he gathers, the CEO's unique
