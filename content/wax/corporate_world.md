@@ -2,7 +2,7 @@
 title: Corporate World
 date: 2021-05-09
 subtitle: NFT Trading Cards
-link: /wax/corporate_world/
+link: https://corporateworld.cards/
 image: /images/project_corpworld.jpg
 
 pagetitle: Corporate World (Hell on Earth)
@@ -24,6 +24,8 @@ mainbuttons:
     link: "https://wax.atomichub.io/drops/37692+37699"
   - label: "Open Packs"
     link: "https://neftyblocks.com/c/corpworldhel/packs"
+  - label: "Sacrificial Pit"
+    link: "https://neftyblocks.com/c/corpworldhel/blends"
   - label: "Telegram Group"
     link: "https://t.me/jonezyartnft/" 
   - label: "Follow Us On Twitter"
@@ -74,10 +76,14 @@ sections:
     subtitle: "Those pesky critters"
     image: "/images/project-corpworld/io.png"
     content: "Besides the 6 characters, there are also 6 Infernal Objects in the set. These are objects found in the office that came alive and develop personalities of their own."
-  - title : "Upgrade Your Cards"
-    subtitle: "Coming Soon"
-    image: "/images/project-corpworld/coming-soon.png"
-    content: "If you have extra 3 (same character, same rarity) cards , you can blend them to the  upgraded version. "
+  - title : "Sacrifice Your Cards"
+    subtitle: "Blend cards together to get higher rarity"
+    image: "/images/project-corpworld/sacrifice.png"
+    content: "If you have extra 3 (same character, same rarity) cards , you can blend them to the  upgraded version. But, to get 1 Infernal Object, you must sacrifice all 6 Mythic character cards."
+  - title : "Best Job In the World"
+    subtitle: "Exclusive NFT Airdrop"
+    image: "/images/project-corpworld/bestjob.png"
+    content: "If you opened a pack before 30 May 2021, we'll send you an NFT via airdrop. Limited to 1 NFT per account."
   - title : "Character Expansion Packs"
     subtitle: "Coming Soon"
     image: "/images/project-corpworld/coming-soon.png"
@@ -93,7 +99,7 @@ sections:
 
 ---
 
-Welcome to the Corporate World (Hell on Earth)! Dan Tenferno felt something amiss when he joined **Herr E-tech Labs Limited Inc.** as their new employee. He has been experiencing "daily work-life unbalance". From what he gathers, the CEO's unique
+Welcome to the Corporate World (Hell on Earth)! Dan Tenferno felt something amiss when he joined **Herr E-tech Labs Limited** as their new employee. He has been experiencing "daily work-life imbalance". From what he gathers, the CEO's unique
 aura has corrupted the long-time employees and morphed them into worst versions of themselves. Even the office equipments have a mind of their own! 
 
 
