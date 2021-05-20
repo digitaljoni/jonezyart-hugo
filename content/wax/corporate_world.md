@@ -88,10 +88,10 @@ sections:
     subtitle: "Coming Soon"
     image: "/images/project-corpworld/coming-soon.png"
     content: "After the initial sale, we will be releasing expansion packs that will contain 3 cards: (2) Series1 cards and (1) new character card with all rarities."
-  - title : "Stakeholders NFT"
-    subtitle: "Coming Soon"
-    image: "/images/project-corpworld/coming-soon.png"
-    content: "If you successfully complete (and hold) the set by end of August 2021, you will get a special NFT for your achievements. This NFT will get you special nft airdrops in the future."
+  # - title : "Stakeholder NFT"
+  #   subtitle: "Coming Soon"
+  #   image: "/images/project-corpworld/coming-soon.png"
+  #   content: "If you successfully complete (and hold) the set (all cards in schema *series1*) by end of August 2021, we will airdrop a *Stakeholder NFT* for your achievements. If you hold this special NFT, you will get a rare NFT airdrop in the future from time to time."
     
 
 
