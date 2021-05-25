@@ -138,15 +138,24 @@
 <!-- section - end -->
 
 
+{{ if .Params.showWaxLogos }}
+<div class="container mx-auto px-4">
+  {{- partial "wax_services.html" . -}}
+</div>
+{{ end }}
 
-
+{{ if .Params.showWaxFaqs }}
 <div class="container mx-auto px-4">
   {{- partial "faq_wax.html" . -}}
 </div>
+{{ end }}
 
+
+{{ if .Params.showArtistBio }}
 <div class="container mx-auto px-4">
   {{- partial "about_the_artist.html" . -}}
 </div>
+{{end}}
 
 
 {{ end }}

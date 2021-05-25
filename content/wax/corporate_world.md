@@ -24,16 +24,16 @@ mainbuttons:
     link: "https://wax.atomichub.io/drops/37692+37699"
   - label: "Open Packs"
     link: "https://neftyblocks.com/c/corpworldhel/packs"
-  - label: "Sacrificial Pit"
+  - label: "Sacrificial Pit (Blend)"
     link: "https://neftyblocks.com/c/corpworldhel/blends"
+  - label: "Stickers Drops"
+    link: "https://neftyblocks.com/c/corpworldhel/drops"
   - label: "Telegram Group"
     link: "https://t.me/jonezyartnft/" 
   - label: "Follow Us On Twitter"
     link: "https://twitter.com/corpworld_nft/" 
 
 headerimage: /images/project-corpworld/header.jpg
-
-
 
 gallery1enabled: true
 gallery1title: "Preview Cards and Rarities"
@@ -67,6 +67,11 @@ gallery1items:
     link: "#"
 
 sections:
+  - title : "Series 1 Stickers"
+    subtitle: "Sticker NFTs"
+    image: "/images/project-corpworld/stickers.png"
+    content: "Collect NFT stickers featuring the characters of Corporate World Series 1! Collect them all and get some extra ones."
+    link: ""
   - title : "Promo Cards"
     subtitle: "Freeeeeee NFTs"
     image: "/images/project-corpworld/free.png"
@@ -93,9 +98,11 @@ sections:
   #   image: "/images/project-corpworld/coming-soon.png"
   #   content: "If you successfully complete (and hold) the set (all cards in schema *series1*) by end of August 2021, we will airdrop a *Stakeholder NFT* for your achievements. If you hold this special NFT, you will get a rare NFT airdrop in the future from time to time."
     
+  
 
-
-
+showWaxLogos: true
+showArtistBio: true
+showWaxFaqs: true
 
 ---
 
