@@ -37,6 +37,8 @@ mainbuttons:
 
 headerimage: /images/project-corpworld/header.jpg
 
+asSeenOnVideo: https://www.youtube.com/embed/OcMS-4Jj2hQ?start=2413
+
 gallery1enabled: true
 gallery1title: "Preview Cards and Rarities"
 gallery1items:

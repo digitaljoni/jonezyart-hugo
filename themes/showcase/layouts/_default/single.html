@@ -58,6 +58,7 @@
 <!-- hero - end -->
 
 
+{{ if .Params.asSeenOnVideo }}
 <!-- full width - start -->
 <div class="container px-5 py-8 mx-auto">
 
@@ -67,15 +68,17 @@
   </h2>
 
 
+
+
   <div class="content-center text-center">
-    <iframe class="mx-auto" width="460" height="315" src="https://www.youtube.com/embed/OcMS-4Jj2hQ?start=2413"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    <iframe class="mx-auto" width="460" height="315" src="{{ .Params.asSeenOnVideo }}" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
   </div>
 
 </div>
 <!-- full width - end -->
+{{ end }}
 
 
 <!-- full width - start -->
